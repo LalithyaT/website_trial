@@ -11,7 +11,7 @@ export default function Home() {
     <h1 className="float-right hover:text-blue-600 mx-4"><Link href="./about">Photo Gallery  </Link></h1>
     <h1 className="float-right hover:text-blue-600 mx-4"><Link href="./about">Puja Timings  </Link></h1>
     <h1 className="float-right hover:text-blue-600 mx-4"><Link href="./about">About Us  </Link></h1>
-    <h1>new change again</h1>
+    <h1>new branch</h1>
     </div>
     <Image src="/images/image1.jpg" width={1300} height={200} alt="txt"></Image>
     </div>
