@@ -13,12 +13,12 @@ export default function Footer() {
         
         <p className="mb-4">
           <a href="#!" className="text-neutral-600 dark:text-neutral-200"
-            >Puja Timings</a
+            >{process.env.timings}</a
           >
         </p>
         <p className="mb-4">
           <a href="#!" className="text-neutral-600 dark:text-neutral-200"
-            >Photo Gallery</a
+            >{process.env.photos}</a
           >
         </p>
       </div>
