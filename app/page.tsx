@@ -3,18 +3,50 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div>
-    <div className="p-5 bg-blue-100">
-    Home
-    <h1 className="float-right hover:text-blue-600 mx-4"><Link href="./about">Login/Sign up </Link></h1>
-    <h1 className="float-right hover:text-blue-600 mx-4"><Link href="./about">Contact Us </Link></h1>  
-    <h1 className="float-right hover:text-blue-600 mx-4"><Link href="./about">Photo Gallery  </Link></h1>
-    <h1 className="float-right hover:text-blue-600 mx-4"><Link href="./about">Puja Timings  </Link></h1>
-    <h1 className="float-right hover:text-blue-600 mx-4"><Link href="./about">About Us  </Link></h1>
-    <h1>new branch</h1>
+    // <div className="hidden items-center w-full lg:flex lg:w-auto lg:order-3">
+    // <ul className="p-5 bg-blue-100">
+    // <li className="hover:text-blue-600 mx-4"><Link href="./about">Home </Link></li>
+    // <li className="hover:text-blue-600 mx-4"><Link href="./about">Login/Sign up </Link></li>
+    // <li className=" hover:text-blue-600 mx-4"><Link href="./about">Contact Us </Link></li>  
+    // <li className="hover:text-blue-600 mx-4"><Link href="./about">Photo Gallery  </Link></li>
+    // <li className="hover:text-blue-600 mx-4"><Link href="./about">Puja Timings  </Link></li>
+    // <li className="hover:text-blue-600 mx-4"><Link href="./about">About Us  </Link></li>
+    
+    // </ul>
+    // <Image src="/images/image1.jpg" width={1900} height={100} alt="txt"></Image>
+    // </div>
+  // <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl" >
+  // <h1 ><a href="#home">Home  </a></h1>
+  // <h1 className="right-8"><a href="#news">News  </a></h1>
+  // <h1 ><a href="#contact">Contact  </a></h1>
+  // <h1 ><a className="active" href="#about">About</a></h1>
+  // <div className="flex justify-around flex-wrap lg:flex-nowrap">
+  // <div className="bg-[url('/images/image1.jpg')] ">
+  <div>
+  <div className="grid lg:grid-cols-2">
+
+  <Image src="/images/image1.jpg" width={1500} height={300} alt="txt"></Image>
+  <div className="text-3xl font-serif text-center lg:my-auto">
+                Welcome to Shri Venkateswara Swamy Devasthanam page.Visit us and seek the
+                blessings of swamy.
+  </div>
+  </div>
+  <div className="h-60">
+    <h1 className="py-5 text-3xl font-serif font-medium leading-tight text-primary">Temple Services</h1>
+    <div className="flex text-2xl lg:mx-auto lg:my-auto px-auto grid-1 grid gap-9 md:grid-cols-2 lg:grid-cols-3">
+    <div className="box-border h-40 w-64 p-4 border-4 border-gray-400 bg-gray-200">
+    <p className="lg:mx-auto box-border">Archana</p>
     </div>
-    <Image src="/images/image1.jpg" width={1300} height={200} alt="txt"></Image>
+    <div className="box-border h-40 w-64 p-4 border-4 border-gray-400 bg-gray-200">
+    <p className="lg:mx-auto">Abhishekam</p>
     </div>
+    <div className="box-border h-40 w-64 p-4 border-4 border-gray-400 bg-gray-200">
+    <p className="lg:mx-auto">Annadaanam</p>
+    </div>
+    </div>
+
+  </div> 
+  </div>
   
     // <main className="flex min-h-screen flex-col items-center justify-between p-24">
     //   <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
